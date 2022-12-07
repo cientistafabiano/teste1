@@ -32,6 +32,7 @@ st.write('Nesse projeto vamos analisar a quantidade de produtos em estoque, por 
 
 # filtros para a tabela
 checkbox_mostrar_tabela = st.sidebar.checkbox('Mostrar tabela')
+categorias = []
 if checkbox_mostrar_tabela:
 
     st.sidebar.markdown('## Filtro para a tabela')
